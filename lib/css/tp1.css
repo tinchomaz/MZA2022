@@ -1,0 +1,40 @@
+body{
+    background:linear-gradient(90deg,#F6E675,#FE4441);}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration:underline;}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    text-decoration:underline;}
+
+p{
+    font-size: 20px;
+    color: #6A2827;
+}
+
+ul{
+    font-size: large;
+    list-style-type:square;}
+
+ol{
+    font-size: larger;}
+
+audio{
+    margin: auto;
+    display: block;}
+
+iframe{
+    display: block;
+    margin: auto;}
+
+#empanada{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    }
