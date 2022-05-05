@@ -14,13 +14,7 @@ header{
     text-align: center;
     border: 5px solid #627c48 }
 
-nav{flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-    padding: 30px 10px;
-    }
+
 
 section{
     float: left;
@@ -51,18 +45,60 @@ footer{
 
 .logo{width: 200px;}
 
+nav{
+    position: fixed;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    float: 50% 0%;
+    overflow: visible;
+    height: 100px;
+    width: 100%;
+    float: inline-start;
+    z-index: 9999;
+
+    
+    }
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;}
+.desplegar{display: none;}
+
+nav li:hover > ul{display: block;}
+
 .nav-links{ 
     background:linear-gradient(90grad,#72a593,#0b895d);
     border: 3px solid black;
-    padding: 50px;
-    font-size: 50px;
+    font-size: 30px;
     font-family: fantasy;
     text-decoration: none;
     color: #b3d78f;
     border-radius: 20px;
     box-shadow: 10px 10px 15px 2px black;}
 
-.nav-links:hover{background-color: ;}
+.nav-links2{ 
+    background:linear-gradient(90grad,#c4d2cd,#3ad9a2);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 10px;
+    font-family: fantasy;
+    text-decoration: none;
+    color: #030501;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 2px black;}
+
+#navegador {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 .ingredientes{
