@@ -39,11 +39,13 @@ aside
         }
 
 footer{
-    display:flex;
+    
     justify-content:center;}
 
 
 .logo{width: 200px;}
+
+/* DESDE */
 
 nav{
     position: fixed;
@@ -53,10 +55,12 @@ nav{
     align-items: flex-start;
     float: 50% 0%;
     overflow: visible;
-    height: 100px;
     width: 100%;
+    height: auto;
     float: inline-start;
     z-index: 9999;
+    top: 0%;
+  
 
     
     }
@@ -65,27 +69,34 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: space-around;}
-.desplegar{display: none;}
 
-nav li:hover > ul{display: block;}
+.desplegar{
+    display: none;
+    text-decoration: none;}
+
+nav li:hover > ul{
+    display: block;}
 
 .nav-links{ 
     background:linear-gradient(90grad,#72a593,#0b895d);
     border: 3px solid black;
     font-size: 30px;
+    padding: 5px;
     font-family: fantasy;
     text-decoration: none;
     color: #b3d78f;
     border-radius: 20px;
     box-shadow: 10px 10px 15px 2px black;}
 
+
 .nav-links2{ 
     background:linear-gradient(90grad,#c4d2cd,#3ad9a2);
+    text-decoration: none;
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-right: 100px;
-    width: 100px;
+    width: 200px;
     border: 1px solid black;
     font-size: 10px;
     font-family: fantasy;
@@ -100,6 +111,20 @@ nav li:hover > ul{display: block;}
     justify-content: space-around;
 }
 
+
+.redes2{
+    position: fixed;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    overflow: visible;
+    z-index: 9999;
+    top: 90%;
+    right: 1%;
+}
+
+/* HASTA-ES TODO RELACIONADO AL NAVEGADOR,QUE ACOMPANA A LA PAGINA CUANDO BAJA */
 
 .ingredientes{
     display: flex;
@@ -132,4 +157,24 @@ ol{
     color: #4d1614;}
 
 
- 
+#extra{
+    display: flex;
+    justify-content: center;
+}
+
+#redes {
+    margin:10px ;
+    opacity: 0.5;
+    background-color: rgba(42, 75, 42, 0.267);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:50px ;
+ }
+
+.redes{
+    display:inline;
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+}
