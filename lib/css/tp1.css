@@ -15,6 +15,13 @@ header{
     border: 5px solid #627c48 }
 
 
+header:hover{
+    background:linear-gradient(45deg,#e4cc90,#aae772);
+    box-shadow: #030501 5px 5px 5px;
+
+
+}    
+
 
 section{
     float: left;
@@ -88,6 +95,10 @@ nav li:hover > ul{
     border-radius: 20px;
     box-shadow: 10px 10px 15px 2px black;}
 
+.nav-links:hover{
+background:linear-gradient(90grad,#c2e3d8,#83d8ba);
+
+}
 
 .nav-links2{ 
     background:linear-gradient(90grad,#c4d2cd,#3ad9a2);
@@ -177,4 +188,56 @@ ol{
     padding: 3px;
     width: 30px;
     height: 30px;
+}
+
+main{
+width: 100%;
+margin-top: 10%;
+margin-bottom: 10%;
+height: 40%;
+display: flex;
+justify-content: center;
+}
+
+#formulario{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#contacto{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#boton{
+    border-radius: 30px;
+
+
+}
+
+#boton:hover{
+box-shadow: #0b895d 2px 2px 2px;
+
+
+
+}
+
+
+#empanada:hover{
+width: 80%;
+display: flex;
+position: fixed;
+overflow: auto;
+z-index: 9999;
+overflow: visible;
+float:initial;
+
 }
