@@ -6,8 +6,9 @@ header{
     background:linear-gradient(45deg,#F9EBC8,#DAE5D0);
     background-size:contain;
     margin:auto;
-    width: 800px;
+    width: auto;
     opacity: 0.6;
+    display: flex;
     justify-content: center;
     align-items: flex-end;
     font-family: fantasy;
@@ -30,14 +31,17 @@ section{
     }
 
 
-
+main{
+    display: flex;
+    justify-content: center;
+}
 
 aside
     {border:5px solid black;
     
-    margin-left: 60%;
-    width: auto;
-    height: 390px;
+    margin-left: 0%;
+    width: 50%;
+    height: 30%;
 
     }
 
@@ -67,9 +71,6 @@ nav{
     float: inline-start;
     z-index: 9999;
     top: 0%;
-  
-
-    
     }
 
 nav ul{
@@ -145,12 +146,12 @@ background:linear-gradient(90grad,#c2e3d8,#83d8ba);
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 3rem;
     text-decoration:underline #A0BCC2;}
 
 h3{
     text-align: center;
-    font-size: 30px;
+    font-size: 2px;
     text-decoration:underline #A0BCC2;}
 
 p{
@@ -230,13 +231,13 @@ box-shadow: #0b895d 2px 2px 2px;
 
 }
 
-
+#empanada{
+    width: 100%;
+    
+}
 #empanada:hover{
-width: 80%;
-display: flex;
-position: fixed;
-overflow: auto;
-z-index: 9999;
+width: 90%;
+z-index: 99;
 overflow: visible;
 float:initial;
 
