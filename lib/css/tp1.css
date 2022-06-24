@@ -176,6 +176,16 @@
     #extra{
         display: flex;
         justify-content: center;}
+    .info-button{
+        width: 10%;
+        height: 10%;
+        background-color: #83d8ba;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        border-radius: 5px;}   
+    .info-button:hover{
+        background-color:#7fd589 ;
+    }     
     #redes {
         margin:10px ;
         opacity: 0.5;
@@ -387,6 +397,17 @@
         font-size: 2rem;
         text-decoration: none;
     }
+    .info-button{
+        width: auto;
+        height: auto;
+        text-align: center;
+        background-color: #83d8ba;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        border-radius: 5px;}   
+    .info-button:hover{
+        background-color:#7fd589 ;
+    }    
     #redes {
         margin:0.6rem ;
         opacity: 0.5;
